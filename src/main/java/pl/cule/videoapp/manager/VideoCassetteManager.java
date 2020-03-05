@@ -38,9 +38,6 @@ public class VideoCassetteManager {
 
     @EventListener(ApplicationReadyEvent.class)
     public void fillDB() {
-//        save(new VideoCassette(1L,"Titanic", LocalDate.of(1995, 1,1)));
-//        save(new VideoCassette(2L,"Pulp Fiction", LocalDate.of(1990, 2,2)));
-
         save(new VideoCassette("Titanic", LocalDate.of(1995, 1,1)));
         save(new VideoCassette("Pulp Fiction", LocalDate.of(1990, 2,2)));
     }
